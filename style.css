@@ -1,0 +1,25 @@
+:root{
+  --dark-blue: #006d77;
+  --light-blue: #83c5be;
+  --light-pink: #ffddd2;
+  --dark-pink: #e29578;
+  --white: #edf6f9;
+
+  --primary: var(--dark-pink);
+  --accent:var(--dark-blue);
+  --accent-light:var(--light-blue);
+  --font-main: black;
+}
+
+.navbar{
+  border-bottom: 2px solid var(--primary);
+  box-shadow: 0 0 2px 0 black;
+  
+}
+.navbar a{
+  color: var(--accent);
+}
+.nav-pills .nav-link.active{
+  background: var(--accent-light)!important;
+  border-radius: 0;
+}
