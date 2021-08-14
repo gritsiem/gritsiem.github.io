@@ -21,7 +21,7 @@ canvas.height=window.innerHeight-20;
 // var h = Math.floor(canvas.height*Math.random()+1)
 c.beginPath()
 
-c.lineTo(canvas.width,0)
+c.lineTo(canvas.width+5,0)
 c.lineTo(0,canvas.height)
 c.lineTo(0,0)
 c.fillStyle = '#e29578';

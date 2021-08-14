@@ -19,7 +19,7 @@ function makeHTML(projects){
         html+= `
         <div class="col">
         <div class="card h-100">
-        <div class="card-img" style="background: linear-gradient(${angle}deg, ${color1}, ${color2}); border:none; height:200px; opacity:0.4" ></div>
+        <div class="card-img" style="background: linear-gradient(${angle}deg, ${color1}, ${color2}); border:none; height:100px; opacity:0.4" ></div>
         <div class="card-img-overlay">
           <h5 class="card-title">${item.title}</h5>
           <p class="card-text">${item.description}</p>

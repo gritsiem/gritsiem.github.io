@@ -52,22 +52,30 @@
         </div>
       </div>
       <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
-        <div class="container">
-        <div class="cards-row row row-cols-4">
+        <div class="container pt-5">
+        <div class="cards-row row row-cols-5">
         </div>
         </div>
       </div>
       <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
         <div class="container">
         <p class="lead">Email</p>
-        
-<form action="mailto:ghritachi.mahajani@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <div class="row justify-content-center">
+          <div class="col-4">
 
-
-      Name:<br>
-      <input type="text" size="19" name="ContactName"><br><br>
-      Message:<br> <textarea name="ContactCommentt" rows="6" cols="20">
-      </textarea><br><br> <input type="submit" value="Submit">
+            <form class="p-4" action="mailto:ghritachi.mahajani@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+            <div class="mb-3">
+              <label for="contactname" class="form-label">Name</label>
+              <input type="text" class="form-control" id="contactname">
+            </div>
+            <div class="mb-3">
+              <label class="form-check-label" for="comment">Get in touch</label>
+              <textarea class="form-control" id="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
         </div>
       </div>
     </div>

@@ -42,3 +42,7 @@ body{
   position: absolute;
   z-index: -1;
 }
+
+#contact form{
+  backdrop-filter: blur(50px);
+}
