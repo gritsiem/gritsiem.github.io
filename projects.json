@@ -1,0 +1,14 @@
+{
+    "projects":[
+        {
+            "title":"Contact App",
+            "description":"An app to help remember you to stay in touch",
+            "tags":["React Native"]
+        },
+        {
+            "title":"Canvas",
+            "description":"An app to showcase my Canvas skills",
+            "tags":["HTML","CSS","JS"]
+        }
+    ]
+}
