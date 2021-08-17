@@ -40,26 +40,25 @@ initCanvas();
 function getProjects(){
     var request = new XMLHttpRequest();
     var projects;
-request.open('GET', 'projects.json', true);
+    request.open('GET', 'https://portfolio-b754d-default-rtdb.asia-southeast1.firebasedatabase.app/projects.json', true);
 
 
-request.onload = function(){ 
-    if (request.status >= 200 && request.status < 400) {
-    // Success!
-    var data = JSON.parse(request.responseText);
-    makeHTML(data.projects)
-  } else {
-      console.log("oops")
-  }
-};
-
-request.onerror = function() {
-  // There was a connection error of some sort
-};
-request.send()
+    request.onload = function(){ 
+        if (request.status >= 200 && request.status < 400) {
+        // Success!
+        projects = JSON.parse(request.responseText);
+        makeHTML(projects)
+      } else {
+          console.log("oops")
+      }
+    };
+    request.onerror = function() {
+        // There was a connection error of some sort
+      };
+      request.send()
 }
 
 getProjects();
 
-
+console.log(_)
 
