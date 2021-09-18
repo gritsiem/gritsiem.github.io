@@ -1,0 +1,48 @@
+:root{
+  --dark-blue: #006d77;
+  --light-blue: #83c5be;
+  --light-pink: #ffddd2;
+  --dark-pink: #e29578;
+  --white: #edf6f9;
+
+  --primary: var(--dark-pink);
+  --accent:var(--dark-blue);
+  --accent-light:var(--light-blue);
+  --font-main: black;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--dark-pink);
+}
+.tab-content{
+  z-index: 1;
+}
+.navbar{
+  /* border-bottom: 2px solid var(--primary);
+  box-shadow: 0 0 2px 0 black; */
+  background:black;
+  opacity: 0.7;
+  border-radius: 0 0 10px 10px ;
+  overflow: hidden;
+}
+
+.navbar>div{
+  backdrop-filter:  blur(10px);
+  margin: -0.5rem 0;
+}
+.navbar a{
+  color: var(--accent);
+}
+.nav-link.active{
+  background: white;
+  opacity:0.5;
+} 
+
+#main-canvas{
+  position: absolute;
+  z-index: -1;
+}
+
+#contact form{
+  backdrop-filter: blur(50px);
+}
