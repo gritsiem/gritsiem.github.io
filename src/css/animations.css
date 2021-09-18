@@ -1,0 +1,62 @@
+@keyframes shine {
+    from {backdrop-filter: contrast(1);height:0;width:0;border-radius: 50%;}
+    to {backdrop-filter: contrast(0.7);height:100%;width:100%;border-radius: 1px;}
+  }
+  
+  /* The element to apply the animation to */
+  .nav-link:hover:after{
+    content:" ";
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 0;
+    height:0;
+    border-radius: 50%;
+    backdrop-filter: contrast(0.6);
+    animation-name: example;
+    animation-duration: 0.5s;
+  }
+  @keyframes contract {
+    from {height:calc(100vh - 63.6px);}
+    to { height: 20vh;}
+  }
+  .explore-anim{
+    animation-name: contract;
+    animation-duration: 0.5s;
+    height:20vh!important;
+  }
+  #about > .container.pull-up{
+    height:150px!important;
+    transition: height 0.3s linear;
+  }
+  @keyframes contract-font {
+    from {
+        font-size: 3rem;
+        font-weight: normal;
+    }
+    to {
+        font-size: 1.5rem;
+    }
+  }
+  .explore-anim *{
+    animation-name: contract-font;
+    animation-duration: 0.5s;
+    font-size: 1.5rem;
+  }
+  .explore-anim .name{
+    font-weight: bold;
+  }
+  @keyframes contract-flex{
+    from{
+        margin-top: 20%;
+    }
+    to{
+        margin-top: 0;
+    }
+  }
+
+  .intro-graphics.explore-anim .image-circle{
+    animation-name: contract-flex;
+    animation-duration: 0.5s;
+    margin-top: 0;
+  }
