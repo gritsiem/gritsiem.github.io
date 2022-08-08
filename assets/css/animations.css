@@ -25,7 +25,7 @@
     animation-duration: 0.5s;
     height:20vh!important;
   }
-  #about > .container.pull-up{
+  #about > .container.pull-up, .vio.pull-up{
     height:150px!important;
     transition: height 0.3s linear;
   }
@@ -60,3 +60,24 @@
     animation-duration: 0.5s;
     margin-top: 0;
   }
+
+  circle {
+    fill: white;
+    stroke: var(--violet);
+    stroke-width: 4;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 170;
+    animation: rotate 1s linear;
+  }
+  
+  .skew{
+    transform: skewY(150deg);
+    transition: transform 1s;
+  }
+  @keyframes rotateground-back {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  
