@@ -15,8 +15,11 @@
     
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 5px;
 }
 ::-webkit-scrollbar-track{
     display: none;
@@ -51,6 +54,7 @@ header{
     position: relative;
     /* background: #a8dadcc7; */
     background-color: #d9f2f3;
+    overflow: hidden;
 }
 header p{
     position: relative;
