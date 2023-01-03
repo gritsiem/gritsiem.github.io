@@ -119,3 +119,18 @@ padding: 30px;
 .short-desc{
     color: var(--secondary);
 }
+
+@media screen and (max-width: 767px){
+    .pattern{
+        top: 27%;
+        left: -40pc;
+        height: 37em;
+    }
+    .project-item-container{
+        margin: auto;
+    }
+    #project-list{
+        padding-left: 0;
+    }
+    
+}
