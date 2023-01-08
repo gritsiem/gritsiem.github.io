@@ -44,7 +44,6 @@ a:hover{
     font-weight: 600;
     color: var(--accent);
     text-align: center;
-    
 }
 
 /* header */
@@ -78,9 +77,14 @@ header p{
     font-size: 34px;
     letter-spacing: 0;
 }
-
 .sub-intro{
+    font-weight: 500;
+}
+.sub-intro, .sub-intro i{
     color: var(--secondary);
+}
+header > .sub-intro i:hover{
+    color: var(--accent);
 }
 /* project-content */
 
@@ -88,10 +92,13 @@ header p{
     padding-top: var(--section-mt);
 }
 
+.section-body{
+    margin: 0 20px;
+    border-top: 2px solid var(--primary);
+    padding: 30px;
+}
 #project-listing-container{
-margin: 0 20px;
-border-top: 2px solid var(--primary);
-padding: 30px;
+
 }
 #project-list{
     max-width: 900px;
@@ -119,7 +126,61 @@ padding: 30px;
 .short-desc{
     color: var(--secondary);
 }
+#about-content h2 {
+    color: var(--accent);
+    text-align: center;
+    margin-bottom: 40px;
+}
+#about-content ul.framework {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: auto;
+}
+#about-content .framework li{
+    text-align: center;
+}
+#about-content .framework li span{
+    display: block;
+    font-weight: 700;
+    margin-bottom: 20px;
+    max-width: 150px;
+    margin: auto;
+}
+#about-content .framework i {
+    color: var(--light-blue);
+    font-size: 70px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 17px;
+    border: 10px var(--primary) double;
+    
+}
 
+.highlights{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.highlights li{
+    list-style-type: disclosure-closed;
+    color: var(--secondary);
+    line-height: 2rem;
+    padding-left: 20px;
+}
+.highlights li span{
+    font-weight: bold;
+    color: var(--accent);
+}
+@media screen and (max-width: 1024px){
+    #about-container ul{
+        padding-left: 0;
+    }
+}
 @media screen and (max-width: 767px){
     .pattern{
         top: 27%;
