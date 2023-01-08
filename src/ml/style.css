@@ -64,7 +64,7 @@ header p{
     z-index: 0;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 60%;
     transform: rotate(225deg) translateX(-38em) translateY(47em);
     background: linear-gradient(135deg, #d9f2f3 25%, transparent 25%) -50px 0, linear-gradient(225deg, #d9f2f3 25%, transparent 25%) 0px 0, linear-gradient(315deg, #d9f2f3 25%, transparent 25%), linear-gradient(45deg, #d9f2f3 25%, transparent 25%);
     background-size: 100px 100px;
@@ -144,9 +144,9 @@ header > .sub-intro i:hover{
 #about-content .framework li span{
     display: block;
     font-weight: 700;
-    margin-bottom: 20px;
     max-width: 150px;
     margin: auto;
+    margin-bottom: 20px;
 }
 #about-content .framework i {
     color: var(--light-blue);
@@ -194,4 +194,7 @@ header > .sub-intro i:hover{
         padding-left: 0;
     }
     
+    #about-container ul.highlights{
+       width: max-content;
+    }
 }
