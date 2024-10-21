@@ -1,0 +1,113 @@
+#root {
+  max-width: 1280px;
+  box-sizing: border-box;
+  /* margin: 0 auto;
+  padding: 2rem; */
+  /* text-align: center;
+   */
+}
+
+.landing-container{
+  background-color: var(--main-white);
+  height: calc(100vh + 15px);
+  color: black;
+  display: flex;
+  width: 100vw;
+  /* border-radius: 0 0 10px 10px; */
+}
+.greeting-container{
+  padding: 3em;
+  width: 100%;
+  max-width: 300px;
+}
+
+.menu-container{
+ flex: 1;
+ padding: 2em;
+ padding-top: 10em;
+}
+
+.menu{
+  display: grid;
+  margin-left: auto;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 0.75rem; */
+  pointer-events: none;
+}
+
+
+.menu-card{
+  max-width: 20rem;
+    /* color: #ffffffda; */
+    padding: 1.5rem;
+    background-color: #202022;
+    /* border-radius: 5px; */
+    pointer-events: auto;
+    height:auto;
+    transform: scale(1);
+    opacity: 1;
+    transition: all 150ms ease-in-out; 
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--dark);
+    &:nth-child(even) {
+      transform: translateY(8px);
+    }
+    &:first-of-type{
+     /* background-color: var(--main-orange); */
+     background-color: var(--main-gray);
+    }
+    &:nth-child(2), &:nth-child(3){
+     background-color: transparent; 
+     backdrop-filter: blur(5px);
+     /* border: 2px solid var(--less-dark); */
+    }
+    &:nth-child(4){
+     /* background-color: var(--main-blue); */
+     background-color: var(--main-gray);
+    }
+    &:nth-child(1) {
+      transform: rotate(-5deg);
+    }
+
+}
+
+.menu:hover > .menu-card:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 7px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+/* .menu:hover > .menu-card:not(:hover) {
+  opacity: 0.995;
+} */
+
+.seperator-container{
+  height: 7em;
+  background-color: var(--green);
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  top: -10px;
+}
+
+.seperator-container p{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 30px;
+  margin: 0;
+}
+@media screen and (max-width:1024px) {
+  .landing-container{
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1280px)  {
+  #root {
+    max-width: none;
+  }
+}
