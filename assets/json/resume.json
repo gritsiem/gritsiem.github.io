@@ -1,23 +1,21 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ghritachi Mahajani",
+    "label": "Software Developer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "ghritachimahajani5@gmail.com",
+    "phone": "Upon Request",
+    "url": "https://gritsiem.github.io/",
+    "summary": "A Software Developer, with an interest in building machine learning systems for interesting problems",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "Boulder",
       "countryCode": "US",
-      "region": "California"
+      "region": "Colorado"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
+        "network": "LinkedIn",
+        "username": "ghritachi-mahajani",
         "url": "https://twitter.com/AlbertEinstein"
       }
     ]
