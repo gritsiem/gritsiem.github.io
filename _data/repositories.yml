@@ -1,0 +1,9 @@
+github_users:
+  - gritsiem
+
+repo_description_lines_max: 2
+
+github_repos:
+  - gritsiem/imagecap
+  - gritsiem/financial_data
+  - gritsiem/agfzb-CloudAppDevelopment_Capstone
