@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I am a Computer Science Master's student from University of Colorado, Boulder. I have 4 years of work experience as a Frontend Software Developer and my interests lie in Machine Learning. I am currently doing research in explainability when it comes to decision-making of Large Language Models. 
+Hi! I am a Computer Science Master's student from the University of Colorado, Boulder. I have 4 years of work experience as a Frontend Software Developer and my interests lie in Machine Learning. I am currently doing research in explainability when it comes to decision-making of Large Language Models. 
 
 My skills include full-stack (HTML and template engines, CSS and SASS preprocessors , React, JS and associated libraries, Node.js, Flask, PostgreSQL, GCP). I enjoy coding in Python and have worked with most machine learning libraries. I am experienced in client-facing roles as well as working within cross-functional teams. 
 
