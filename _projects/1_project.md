@@ -2,7 +2,7 @@
 layout: page
 title: Image Captioning
 description: A Pre-LLM era image captioning model finetuning project!
-img: assets/img/imcap/imcap.jpg
+img: assets/img/imcap/imcap.png
 importance: 1
 category: ML
 related_publications: false
