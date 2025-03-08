@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Cloud Logging with AI Insight
+description: Uses the ElasticSearch, Logstash and Kibana stack to store logs, but with an LLM component to generate possible debugging insights.
+img: assets/img/proj3.png
+redirect: https://github.com/gritsiem/ai-log-application
 importance: 3
-category: work
+category: Distributed Systems
 ---
 
 Every project has a beautiful feature showcase page.

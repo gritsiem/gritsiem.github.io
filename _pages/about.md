@@ -25,12 +25,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a Computer Science Master's student from the University of Colorado, Boulder. I have 4 years of work experience as a Frontend Software Developer and my interests lie in Machine Learning. I am currently doing research in explainability when it comes to decision-making of Large Language Models. 
+Hi! I am a Computer Science Master's student (graduating May, 2025) from the University of Colorado, Boulder. I have 4 years of work experience as a Software Engineer working in client-facing roles with cross-functional teams. Currently I am doing research on free-text rationales when it comes to decision-making of Large Language Models. 
 
-My skills include full-stack (HTML and template engines, CSS and SASS preprocessors , React, JS and associated libraries, Node.js, Flask, PostgreSQL, GCP). I enjoy coding in Python and have worked with most machine learning libraries. I am experienced in client-facing roles as well as working within cross-functional teams. 
+I enjoy working on Machine Learning problems - whether it is cleaning and analysing data to find interesting insights, creating statistical deep learning model to achieve learning goals, or building scalable systems for them. I have hands on experience with various Python tools and frameworks (Numpy, Pandas, PyTorch, Scikit-learn) as well as scalable cloud technologies (GCP, Docker, Kubernetes). I also know full-stack ( Web development, React, Flask, SQL). 
 
-My hobbies are music (I am learning the guitar), watching anime and trying new things! Welcome to my website!
-
+Nice to meet you!
 
 <!-- Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
