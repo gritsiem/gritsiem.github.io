@@ -2,7 +2,7 @@
 layout: page
 title: Cloud Logging with AI Insight
 description: Uses the ElasticSearch, Logstash and Kibana stack to store logs, but with an LLM component to generate possible debugging insights.
-img: assets/img/proj3.png
+img: assets/img/proj3.jpg
 redirect: https://github.com/gritsiem/ai-log-application
 importance: 3
 category: Distributed Systems
