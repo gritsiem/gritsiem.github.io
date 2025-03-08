@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 2
-display_categories: [ML]
+display_categories: [ML, Distributed Systems]
 horizontal: false
 ---
 
