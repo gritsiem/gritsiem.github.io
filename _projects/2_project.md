@@ -3,7 +3,7 @@ layout: page
 title: Data sourcing, processing and visualization for Indian NSE Stock data.
 description:
 img: assets/img/findata/titleim.png
-importance: 2
+importance: 1
 redirect: https://github.com/gritsiem/financial_data
 category: ML
 ---
