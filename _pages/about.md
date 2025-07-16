@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Boulder, Colorado</p>
+    <p>Denver, Colorado</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,9 +25,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a Computer Science Master's student (graduating May, 2025) from the University of Colorado, Boulder. I have 4 years of work experience as a Software Engineer working in client-facing roles with cross-functional teams. Currently I am doing research on free-text rationales when it comes to decision-making of Large Language Models. 
+Hi, I’m Ghritachi — a software engineer with 4+ years of experience in building web and mobile applications, now specializing in **machine learning** and generative AI.
 
-I enjoy working on Machine Learning problems - whether it is cleaning and analysing data to find interesting insights, creating statistical deep learning model to achieve learning goals, or building scalable systems for them. I have hands on experience with various Python tools and frameworks (Numpy, Pandas, PyTorch, Scikit-learn) as well as scalable cloud technologies (GCP, Docker, Kubernetes). I also know full-stack ( Web development, React, Flask, SQL). 
+After several years developing high-impact apps at scale, I became fascinated by the potential of LLMs and AI systems. I recently graduated with a Master’s in Computer Science from CU Boulder (May, 2025, GPA 4.0), where I’ve worked on AI-powered distributed applications, LLM explainability research, and scalable ML pipelines.
+
+My focus now is **building production-ready ML systems** — combining real-world data, models and frameworks such as LangChain, and DevOps tools like MLlfow, Docker and more. Explore my [projects](https://gritsiem.github.io/projects/) or check out my [GitHub](https://github.com/gritsiem).
+
+Feel free to connect — I love talking about AI systems, UI design, or the occasional anime reference.
 
 Nice to meet you!
 
