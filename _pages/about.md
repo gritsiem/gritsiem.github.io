@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: MS Computer Science, <a href='https://www.colorado.edu/'>University of Colorado, Boulder</a> | From New Delhi, India
 
@@ -15,17 +15,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I’m Ghritachi — a software engineer with 4+ years of experience in building web and mobile applications, now specializing in **machine learning** and generative AI.
+Hi, I’m Ghritachi — a software engineer with 4+ years of experience in building **fullstack** web and mobile applications, now specializing in **machine learning** and generative AI.
 
 After several years developing high-impact apps at scale, I became fascinated by the potential of LLMs and AI systems. I recently graduated with a Master’s in Computer Science from CU Boulder (May, 2025, GPA 4.0), where I’ve worked on AI-powered distributed applications, LLM explainability research, and scalable ML pipelines.
 
