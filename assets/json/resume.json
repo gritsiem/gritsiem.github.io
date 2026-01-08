@@ -3,12 +3,12 @@
     "name": "Ghritachi Mahajani",
     "label": "Software Developer",
     "image": "",
-    "email": "ghritachimahajani5@gmail.com",
+    "email": "ghritachimahajani5+portfolio@gmail.com",
     "phone": "Upon Request",
     "url": "https://gritsiem.github.io/",
-    "summary": "A Software Developer, with an interest in building machine learning systems for interesting problems",
+    "summary": "Full-stack software engineer with 4+ years of experience building and shipping production web and mobile applications, spanning React/Next.js frontends, FastAPI/Node backends, and cloud-native infrastructure. Recently focused on integrating ML and LLM-based systems into real products, including AI pipelines, analytics dashboards, and distributed services. Comfortable owning features end-to-end—from system design and APIs to UI, deployment, and monitoring.",
     "location": {
-      "city": "Boulder",
+      "city": "Ann Arbor",
       "countryCode": "US",
       "region": "Colorado"
     },
@@ -22,8 +22,8 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Tata Consultancy Services",
+      "position": "Systems Engineer",
       "url": "https://example.com",
       "startDate": "1933-01-01",
       "endDate": "1955-01-01",
